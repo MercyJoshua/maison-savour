@@ -1,0 +1,52 @@
+/*
+   Global custom CSS
+   Add your project-wide overrides here.
+   Update variables or selectors below to change styling across the site.
+*/
+
+:root {
+   --custom-accent: #fed330;
+   --custom-bg: #fffaf3;
+   --custom-text: #222;
+   --custom-muted: #777;
+   --custom-border: rgba(34, 34, 34, 0.12);
+}
+
+body {
+   background-color: var(--custom-bg);
+   color: var(--custom-text);
+}
+
+* {
+   transition: all 0.2s ease;
+}
+
+img {
+   max-width: 100%;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+   transition: all 0.2s ease;
+}
+
+.btn,
+.delete-btn,
+.option-btn,
+.search-form form button,
+.header .navbar a,
+.header .icons a,
+.header .profile .btn,
+.header .profile .delete-btn {
+   border-radius: 0.5rem;
+}
+
+/* Example override:
+   .header {
+      background: #fff;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.08);
+   }
+*/
